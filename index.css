@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(139, 214, 214);
+}
+.password{
+    font-size: 20px;
+    text-align: center;
+}
+.div{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 500px;
+    padding: 40px;
+}
+#btm{
+    margin-top: 50px;
+    margin-left: 20px;
+}
