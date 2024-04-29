@@ -1,6 +1,6 @@
-body{
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+ /* body{
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -34,4 +34,49 @@ body{
     font-weight: 700;
     cursor: pointer;
 
+} */
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(144, 206, 221);
 }
+
+.password {
+    font-size: 20px;
+    text-align: center;
+}
+
+.div {
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 500px; /* Added max-width to prevent the container from getting too wide */
+    margin: 200px auto; /* Centering the container horizontally */
+    padding: 40px;
+    background-color: white;
+}
+
+#btm {
+    margin-top: 20px; /* Adjusted margin for smaller screens */
+}
+
+.btn {
+    padding: 10px 20px; /* Increased padding for better touch experience on mobile */
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: rgb(125, 125, 125);
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .div {
+        margin-top: 100px; /* Adjusted margin for smaller screens */
+    }
+}
+
